@@ -76,7 +76,7 @@ autoplay:true,
 navText:['<i class="ti-angle-left"></i>','<i class="ti-angle-right"></i>'],
   nav:true,
 dots:false,
-autoplayHoverPause: true,
+autoplayHoverPause: false,
 autoplaySpeed: 800,
   responsive:{
       0:{
@@ -112,7 +112,7 @@ autoplay:true,
 navText:['<i class="ti-angle-left"></i>','<i class="ti-angle-right"></i>'],
   nav:true,
 dots:false,
-autoplayHoverPause: true,
+autoplayHoverPause: false,
 autoplaySpeed: 800,
 
   responsive:{
@@ -145,7 +145,7 @@ autoplay:false,
 navText:['<i class="ti-angle-left"></i>','<i class="ti-angle-right"></i>'],
   nav:true,
 dots:true,
-autoplayHoverPause: true,
+autoplayHoverPause: false,
 autoplaySpeed: 800,
 // dotsData: true,
 center: false,
@@ -202,7 +202,7 @@ center: false,
 
   // counter 
   $('.counter').counterUp({
-    delay: 10,
+    delay: 1,
     time: 10000
   });
 
